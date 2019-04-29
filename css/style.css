@@ -1,0 +1,324 @@
+body{
+	margin: 0;
+	padding:0;
+}
+
+
+/*header start*/
+header{
+	background-color:#121B2A;
+	padding: 10px 0;
+	box-shadow: 10px 0px;
+}
+.container{
+	width:80%;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 10px 0;
+	
+}
+.logo{
+	width: 18%;
+	float: left;
+}
+.logo img{ width: 100%; }
+.menu{
+	width: 60%;
+	float: right;
+	margin-top: 44px;
+}
+.menu ul{
+	list-style: none;
+	float: right;
+}
+.menu ul li{
+	float: left;}
+
+.menu ul li a{
+	text-decoration: none;
+    padding: 0 12px;
+    display: block;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.menu ul li a:hover{
+	color: #0177BF;
+	transition: .5s;
+	}
+.menu ul li:last-child a{
+	padding-right: 0; 
+}
+/*header end*/
+
+/*banner start*/
+
+.banner{
+	background-image: url(../images/bg.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.banner_content{
+	width: 50%;
+	
+	margin-top: 200px;
+	margin-bottom: 50px;
+}
+.banner_content h2{
+	font-weight: 400px; 
+	font-size: 30px;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 0;
+
+}
+.banner_content h1{
+	font-size:35px;
+	color: #0075BA;
+	margin: 0 0;
+}
+.banner_content p{
+	font-size:16px;
+	color: white;
+	margin-top: 5px;
+	margin-bottom: 32px;
+}
+.banner_content button{   
+	color: #5A5A5A;
+    text-transform:uppercase;
+    padding: 17px 35px;
+    border: none;
+   border-radius: 3px;
+    margin: 30px 0;
+}.banner_content button img{
+	width: 19px;
+}
+
+
+/*banner end*/
+
+/*service start*/
+.service{
+	background-color: #121B2C;
+	padding: 30px 0 20px;
+}
+.single{
+     width: 29%;
+     padding: 18px;
+     float: left;
+}
+.top{
+    overflow: hidden;
+}
+.icon{
+	width: 28%;
+	float: left;
+}
+.content{
+    width: 65%;
+    float: left;
+}
+
+.content h2{
+    font-weight: 400px; 
+	font-size: 22px;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+.content h1{
+    font-size: 23px;
+	color: #0075BA;
+	margin: 0 0;
+}
+
+.bottom p{
+     font-size:16px;
+	color: white;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+
+
+
+/*service end*/
+/*about start*/
+.about{
+	background-color: #040811;
+}
+.contract{
+     width: 29%;
+     
+    padding-left:31px;
+    padding-top:32px;
+    float: left;
+    
+}
+.name{
+   float: left;
+}
+.name h1{
+     color: #DBDEE5;
+}
+.name span{
+     color:#096CA7;
+}
+.name p{
+     color:#B4B7BE;
+}
+.addres{
+	color:#B4B8C1;
+}
+
+.shpe{
+	float: left;
+	
+}
+  
+.text1{background: #0C1019;
+	padding: 14px 15px;
+	position: relative;
+	border-radius: 0px;
+}
+.text1:before{
+	 position: absolute;
+    content: "";
+    top: 169px;
+    left: 228px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 24px 64px 0 0;
+    border-color: #0c1019 transparent transparent transparent;
+    line-height: 0px;
+    _border-color: #0c1019 #000000 #000000 #000000;
+
+
+}
+.text1 h1{
+    color: #CCCFD6;
+    font-size: 23px;
+
+}
+.text1 span{
+    color:#1473A9;
+    font-size: 23px;
+    padding-right: 15px;
+
+
+}
+.text1 p{
+    color:#B4B7BE;
+    font-size: 13px;
+
+}
+.hope h1{
+     color:#B3B6BD;
+     font-size: 14px;
+}
+.hope p{
+    color:#B2B7BD;
+    font-size: 13px;
+}
+
+
+
+
+
+.bg1{
+	float: left;
+	
+	
+}
+.bg1 img{
+   width: 107px;
+   float: left;
+
+}
+
+.text{ 
+	float: left; }
+
+.text p1{
+      color: #FCFFFF;
+      font-size:23px;
+      margin-top: 10px;
+      margin-bottom: 14px;
+      padding: 0 20px;
+      
+}
+.text h1{
+       color:#236693;
+      font-size:26px;
+      margin-top: 0px;
+      margin-bottom: 14px;
+      padding-left:20px;
+      
+}
+.text img{
+     padding: 4px 20px;
+
+
+}
+/*about end*/
+
+
+/*fotter start*/
+footer{
+	background-color: #121B2A;
+	color: #fff;
+	margin-top: -18px;
+}
+
+.bg2{
+	width: 60%;
+    float: left;
+    font-size: 16px;
+}
+.bg2 p{
+    padding-left: 58px;
+    font-size: 16px;
+    color: #fff;
+
+}
+.bg2 ul{
+	list-style: none;
+	float: right;
+	padding:0 46px 0;
+
+}
+.bg2 ul li{
+	float: left;
+	padding-left: 0;
+
+}
+.bg2 ul li a{
+	text-decoration: none;
+    padding: 7px 10px;
+    display-:inline-block;
+    color: white;
+    text-transform: ;
+    font-size: 16px;
+    
+}
+
+.pic{
+	width: 35%;
+	float: right;
+	padding: 19px;
+}
+.pic img{
+	float: left;
+	width: 45%;
+}
+
+.bg2 ul li:last-child a{
+	padding-right: 0;
+}
+
+
+
+
+/*fotter end*/
